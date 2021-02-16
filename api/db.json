@@ -31,31 +31,54 @@
             "id": 1,
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 1
         },
         {
             "id": 2,
             "firstName": "Dylan",
             "lastName": "Bobertson",
-            "computerId": 5
+            "computerId": 5,
+            "departmentId": 2
         },
         {
             "id": 3,
             "firstName": "Jimothy",
             "lastName": "Thomas",
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 4
         },
         {
             "id": 4,
             "firstName": "Cave",
             "lastName": "Johnson",
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 3
         },
         {
             "id": 5,
             "firstName": "Ruthie",
             "lastName": "Ginsberg",
-            "computerId": 4
+            "computerId": 4,
+            "departmentId": 1
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "HR"
+        },
+        {
+            "id": 2,
+            "name": "IT"
+        },
+        {
+            "id": 3,
+            "name": "Sales"
+        },
+        {
+            "id": 4,
+            "name": "Accounting"
         }
     ]
 }
