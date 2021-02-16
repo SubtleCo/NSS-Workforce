@@ -1,4 +1,4 @@
-export const Employee = (employee, computer, department, location)=> {
+export const Employee = (employee, computer, department, location, matchedCustomers) => {
     return `
     <div class="employee">
         <header class="employee__name">
@@ -12,6 +12,12 @@ export const Employee = (employee, computer, department, location)=> {
         </section>
         <section class="employee__location">
             Works at the ${location.name} office
+        </section>
+        <section class="employee__customers">
+            Has worked for the following customers:
+            <ul>
+                ${matchedCustomers.map(cust => `<li>${cust.name}</li>`).join("")}
+            </ul>
         </section>
     </div>`
 }
