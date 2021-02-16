@@ -7,7 +7,7 @@ import { getEmployeeCustomers, useEmployeeCustomers }   from "./EmployeeCustomer
 import { getCustomers, useCustomers }                   from "../customers/CustomerProvider.js"
 
 
-const targetElement = document.querySelector('.employees')
+const employeeContainer = document.querySelector('.employees')
 
 export const EmployeeList = () => {
     getEmployees()
@@ -39,4 +39,4 @@ export const EmployeeList = () => {
         })
 }
 
-const render = newHTML => targetElement.innerHTML = newHTML
+const render = newHTML => employeeContainer.innerHTML = newHTML
