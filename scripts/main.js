@@ -1,3 +1,3 @@
-import { EmployeeList } from "../employees/EmployeeList.js";
+import { EmployeeList } from "./employees/EmployeeList.js";
 
 EmployeeList()

@@ -17,7 +17,6 @@ export const EmployeeList = () => {
         .then(getEmployeeCustomers)
         .then(getCustomers)
         .then(() => {
-            debugger
             const allEmployees = useEmployees()
             const allComputers = useComputers()
             const allDepartments = useDepartments()
